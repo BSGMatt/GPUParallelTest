@@ -25,8 +25,8 @@ int addUsingCPU() {
 
 	//Fill the two vectors
 	for (uint32_t i = 0; i < N; i++) {
-		a[i] = 1.0f;
-		b[i] = 2.0f;
+		a[i] = A;
+		b[i] = B;
 	}
 
 	//add() will be the vector addition function

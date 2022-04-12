@@ -34,8 +34,8 @@ int addUsingGPU() {
 	//printf("cudaError for a: %d, cudaError for b: %d\n", malloc_a, malloc_b);
 
 	for (uint32_t i = 0; i < N; i++) {
-		a[i] = 1.0f;
-		b[i] = 2.0f;
+		a[i] = A;
+		b[i] = B;
 	}
 
 	start = clock();
